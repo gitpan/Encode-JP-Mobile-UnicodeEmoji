@@ -8,7 +8,7 @@ use Encode::JP::Mobile;
 use Encode::JP::Emoji;
 use Encode::JP::Emoji::Property;
 use Encode::MIME::Name;
-our $VERSION = '0.01';
+our $VERSION = '0.011';
 
 __PACKAGE__->Define(qw(x-utf8-jp-mobile-unicode-emoji-mbga));
 $Encode::MIME::Name::MIME_NAME_OF{'x-utf8-jp-mobile-unicode-emoji-mbga'} = 'UTF-8';
@@ -41,7 +41,7 @@ __END__
 
 =head1 NAME
 
-Encode::JP::Mobile::UnicodeEmojiMBGA - Unicode emoji mapping specialize in mobage platform.
+Encode::JP::Mobile::UnicodeEmojiMBGA - Unicode Emoji mapping specialize in mobage platform.
 
 =head1 SYNOPSIS
 
@@ -59,7 +59,7 @@ Encode::JP::Mobile's Emoji.
 
 This encoding is specialize in mobage platform.
 
-And round trip conversion for strings containing uniocde emoji is not
+And round trip conversion for strings containing Unicode Emoji is not
 guaranteed at all.
 
 =head1 AUTHOR

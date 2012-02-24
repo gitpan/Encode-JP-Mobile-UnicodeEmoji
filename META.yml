@@ -1,5 +1,5 @@
 ---
-abstract: 'Unicode emoji mapping for Encode::JP::Mobile'
+abstract: 'Unicode Emoji mapping for Encode::JP::Mobile'
 author:
   - 'Masayuki Matsuki <y.songmu@gmail.com>'
 build_requires:
@@ -25,4 +25,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://github.com/Songmu/p5-Encode-JP-Mobile-UnicodeEmoji.git
-version: 0.01
+version: 0.011
